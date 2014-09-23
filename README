@@ -1,1 +1,5 @@
-Start with $ activator run
+LoremII
+=========
+```sh
+activator run
+```
