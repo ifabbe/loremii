@@ -1,0 +1,38 @@
+section.modules .module {
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-bottom: $margin;
+    border-bottom: 1px solid $grayColor;
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 20%;
+        max-width: 80px;
+    }
+}
+
+section.modules .module:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: $breakPointOne) {
+    section.modules {
+        .module {
+            float: left;
+            width: 33%;
+            border: 0;
+
+            img {
+                width: 174px;
+            }
+        }
+        .module:first-child {
+            padding-right: $margin;
+        }
+        .module:last-child {
+            padding-left: $margin;
+        }
+    }
+}

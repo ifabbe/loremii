@@ -1,0 +1,25 @@
+body > section {
+    width: 100%;
+    padding: $margin*2;
+    box-sizing: border-box;
+    min-height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+body > section:last-child {
+    min-height: 0;
+}
+
+body > section:first-child {
+    padding-top: $margin;
+}
+
+body > section > * {
+    margin: 0 auto;
+    max-width: $siteMaxWidth;
+    line-height: 1.4;
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+}

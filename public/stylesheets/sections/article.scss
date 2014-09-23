@@ -1,0 +1,33 @@
+article {
+    padding: 5% 0 3%;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: $breakPointOne) {
+    article > * {
+        width: 70%;
+    }
+}
+
+img.flowers {
+    display: none;
+    width: 30%;
+    max-width: 200px;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+}
+
+
+@media screen and (min-width: $breakPointOne) {
+
+    img.flowers {
+        display: block;
+    }
+}
+
+@media screen and (min-width: $breakPointTwo) {
+    img.flowers {
+        left: 500px;
+    }
+}

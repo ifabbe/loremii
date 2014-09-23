@@ -1,0 +1,21 @@
+header {
+    border-bottom: 1px solid $whiteColor;
+    padding-bottom: 10px;
+
+    h3 {
+        float: left;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        float: right;
+
+        a {
+            margin-right: 20px;
+        }
+        a:last-child {
+            margin-right: 0;
+        }
+    }
+}

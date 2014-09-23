@@ -1,0 +1,9 @@
+footer {
+    border-top: 1px solid $grayColor;
+    a {
+        color: $darkGrayColor;
+        margin-top: $margin/2;
+        margin-left: $margin;
+        float: right;
+    }
+}

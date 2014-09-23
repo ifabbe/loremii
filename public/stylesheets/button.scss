@@ -1,0 +1,28 @@
+button {
+    color: white;
+    text-transform: uppercase;
+    width: 100%;
+    box-sizing: border-box;
+    padding: $margin;
+    background: radial-gradient(ellipse at top left, #b6ff92 10%, #47e770 100%);
+    border-radius: 10px;
+    border: 0;
+    margin-top: $margin;
+}
+
+button:hover {
+    background: radial-gradient(ellipse at top left, #b6ff92 0%, #41d669 90%);
+}
+
+@media screen and (min-width: $breakPointOne) {
+    .signup-info {
+        box-sizing: border-box;
+        width: 67%;
+        float: left;
+        padding-right: $margin;
+    }
+    button {
+        width: 33%;
+        float: left;
+    }
+}
