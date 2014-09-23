@@ -404,13 +404,14 @@ li {
 }
 
 body {
-  color: black;
+  color: #333;
   font-size: 75%;
   font-family: "Lucida Grande", Tahoma, Verdana, Arial;
   font-weight: 100;
 }
 
 .gradient {
+  background: #16a5ff;
   background: radial-gradient(ellipse at top left, #04c7c9 30%, #16a5ff 100%);
   color: white;
 }
@@ -464,6 +465,7 @@ button {
   width: 100%;
   box-sizing: border-box;
   padding: 15px;
+  background: #47e770;
   background: radial-gradient(ellipse at top left, #b6ff92 10%, #47e770 100%);
   border-radius: 10px;
   border: 0;
@@ -471,6 +473,7 @@ button {
 }
 
 button:hover {
+  background: #41d669;
   background: radial-gradient(ellipse at top left, #b6ff92 0%, #41d669 90%);
 }
 

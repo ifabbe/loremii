@@ -1,15 +1,12 @@
-html {
-//    font-size: 62.5%;
-}
-
 body {
-    color: black;
+    color: #333;
     font-size: 75%;
     font-family: $fontFamily;
     font-weight: $fontWeight;
 }
 
 .gradient {
+    background: #16a5ff;
     background: radial-gradient(ellipse at top left, #04c7c9 30%, #16a5ff 100%);
     color: white;
 }
